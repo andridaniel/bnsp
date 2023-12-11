@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 1);;
+}
+
+.login{
+    color: #ffffff;
+}
+
+.login h5{
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+.login .card{
+    margin-top: 50px;
+    padding: 30px;
+    background-color:rgba(18, 18, 18, 1);
+    color: #ffffff;
+}
+

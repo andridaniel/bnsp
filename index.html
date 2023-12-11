@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>komunitas motor bali</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- eksternal carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /eksternal carousel -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- /css -->
+  </head>
+
+  <body>
+    <div>
+      <!-- gambar -->
+      <div class="gambarhome" id="home">
+        <img src="assets/img/bghome.jpg" alt="bghome">
+        <div class="overlay"></div>
+      </div>
+      <!-- /gambar -->
+
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg p-3 ">
+        <div class="container-fluid">
+          <img src="assets/img/logob.png" alt="logo" width="100px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Galery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gettouch">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/register.html">Sign up</a>
+              </li>
+              <li class="nav-item mt-1">
+                <button type="button" class="btn btn-outline-warning" onclick="redirectToLoginPage()">Log in</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+      <!-- /navbar -->
+
+      <!-- text -->
+      <div class="text">
+        <p class="judul">Menggabungkan Kecepatan dan Persaudaraan </p>
+        <div class="desc">
+          <p>Bergabunglah sekarang dan rasakan getaran kehidupan motoritas yang sejati</p>
+          <button type="button" class="btn btn-warning text-light" onclick="kelogin()">Bergabung</button>
+        </div>
+      </div>
+      <!-- /text -->
+
+      <!-- about us -->
+      <div class="about" id="about">
+          <div class="row g-0">
+              <div class="col-md-6">
+                <div class="card-body me-5">
+                    <h5 class="card-title text-warning">Who We Are</h5>
+                    <p class="card-text"> Komunitas motor Bali bukan sekadar perkumpulan, kami adalah keluarga yang kuat. Bersama-sama, kami menjelajahi indahnya pulau ini dengan semangat yang menyala-nyala.</p>
+                    <p class="card-text">Di setiap dentuman mesin, terdapat gairah petualangan yang membawa kami melintasi keindahan alam Bali. Kami adalah penggemar sejati yang tidak hanya mengendarai motor, tapi juga mengeksplorasi setiap sudut pulau.</p>
+                    <p class="card-text">Bukan hanya roda logam, tapi roda persaudaraan yang menggerakkan komunitas motor Bali. Bersama-sama, kami melintasi jalan-jalan dan merajut kenangan tak terlupakan.</p>
+                </div>
+              </div>
+              <div class="col-md-4 ms-5">
+                  <img src="assets/img/aboutus.jpg" class="card-img-top" alt="about">
+              </div>
+          </div>
+        </div>      
+      <!-- /about us -->
+
+      <!-- visi misi -->
+      <div class="visimisi" id="visimisi">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class="card-body pe-5">
+              <img src="assets/img/visimisi.jpg" class="card-img-top" alt="visimisi">
+            </div>
+          </div>
+            <div class="col-md-6 ms-5 text-visimisi"> 
+              <h3>Visi & Misi</h3>
+              <h5 class="card-title text-warning">Visi</h5>
+              <p class="card-text"> Menjadi komunitas motor yang terdepan di Bali, menjadi inspirasi bagi penggemar motor lainnya, dan menciptakan jejak petualangan yang tak terlupakan di setiap jalan pulau.</p>
+
+              <h5 class="card-title text-warning">Misi</h5>
+              <p class="card-text"> Menciptakan ikatan persaudaraan yang kuat di antara anggota komunitas, menghargai keragaman, dan memberikan dukungan satu sama lain. Mendorong semangat petualangan dengan mengadakan perjalanan dan touring berkala ke destinasi menarik di Bali dan sekitarnya.</p>
+            </div>
+          </div>
+        </div>
+      </div>      
+      <!-- /visi misi -->
+
+
+      <!-- Portofolio -->
+      <div class="portofolio" id="portofolio">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="card-body me-5">
+                <h5 class="card-title text-warning">Komunitas Motor Bali</h5>
+                <p>Berikut portofolio milik kami</p>
+                <ul>
+                  <li>Touring ke berbagai destinasi menarik di Bali </li>
+                  <li>Riding events seperti poker run, charity rides, atau scavenger hunts.</li>
+                  <li>Kontes atau pameran sepeda motor kustom di mana para anggota komunitas dapat menampilkan hasil modifikasi atau custom mereka</li>
+                  <li>Partisipasi dalam kegiatan amal atau penggalangan dana untuk membantu masyarakat atau lembaga sosial.</li>
+                  <li>Acara berkumpul atau pertemuan rutin untuk menjalin silaturahmi antaranggota komunitas.</li>
+                </ul>
+                <p>Kami yakin setiap event akan menjadi wadah bagi persaudaraan dan kebersamaan. Ayo sambut setiap perjalanan dengan tekad untuk membuat komunitas motor di Bali semakin erat dan solid!</p>
+                <button type="button" class="btn btn-warning text-light" onclick="keportfolio()">Selengkapnya</button>
+            </div>
+          </div>
+          <div class="col-md-4 ms-5">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner border border-warning border-3">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="assets/img/portofolio1.jpg" class="d-block w-100" alt="portofolio1">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="assets/img/portofolio2.jpg" class="d-block w-100" alt="portofolio2">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/portofolio3.jpg" class="d-block w-100" alt="portofolio3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+      </div>
+      </div>
+      <!-- /Portofolio -->
+
+      <!-- produk -->
+        <div class="produk" id="produk">
+          <h5 class="text-center text-warning">Produk Kami</h5>
+          <p class="mx-auto">Mari jelajahi ragam produk unggulan kami di Komunitas Motor Bali. Dari aksesori berkualitas tinggi hingga perlengkapan keamanan terkini, setiap produk kami dirancang untuk memenuhi kebutuhan para penggemar motor sejati.</p>
+          <section class="galery">
+            <div class="container">
+              <div class="owl-carousel owl-theme">
+                <div class=" item">
+                  <div class="card border border-warning border-3">
+                    <img src="assets/img/produk1.jpg" class="card-img-top" alt="produk1">
+                    <div class="card-body">
+                      <p>Motor old</p>
+                      <p class="text-warning">IDR 450.000</p>
+                      <button type="button" class="btn btn-warning text-light text-center">Beli Sekarang</button>
+                      <p href="">Detail</p>
+                    </div>
+                  </div>
+                </div>
+                <div class=" item">
+                  <div class="card border border-warning border-3">
+                    <img src="assets/img/produk2.jpg" class="card-img-top" alt="produk2">
+                    <div class="card-body">
+                      <p >Helm Motor</p>
+                      <p class="text-warning">IDR 450.000</p>
+                      <button type="button" class="btn btn-warning text-light">Beli Sekarang</button>
+                      <p href="">Detail</p>
+                    </div>
+                  </div>
+                </div>
+                <div class=" item ">
+                  <div class="card border border-warning border-3">
+                    <img src="assets/img/produk3.jpg" class="card-img-top" alt="produk3">
+                    <div class="card-body">
+                      <p>Perlengkapan</p>
+                      <p class="text-warning">IDR 450.000</p>
+                      <button type="button" class="btn btn-warning text-light">Beli Sekarang</button>
+                      <p href="">Detail</p>
+                    </div>
+                  </div>
+                </div>
+                <div class=" item">
+                  <div class="card border border-warning border-3">
+                    <img src="assets/img/produk4.jpg" class="card-img-top" alt="produk4">
+                    <div class="card-body">
+                      <p>Helm</p>
+                      <p class="text-warning">IDR 450.000</p>
+                      <button type="button" class="btn btn-warning text-light">Beli Sekarang</button>
+                      <p href="">Detail</p>
+                    </div>
+                  </div>
+                </div>
+                <div class=" item">
+                  <div class="card border border-warning border-3">
+                    <img src="assets/img/produk5.jpg" class="card-img-top" alt="produk5">
+                    <div class="card-body">
+                      <p>Alat Motor</p>
+                      <p class="text-warning">IDR 450.000</p>
+                      <button type="button" class="btn btn-warning text-light">Beli Sekarang</button>
+                      <p href="">Detail</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border border-warning border-3">
+                    <img src="assets/img/produk6.jpg" class="card-img-top" alt="produk6">
+                    <div class="card-body">
+                      <p>Sperpat</p>
+                      <p class="text-warning">IDR 450.000</p>
+                      <button type="button" class="btn btn-warning text-light">Beli Sekarang</button>
+                      <p href="">Detail</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </section>
+        </div>
+      <!-- /produk -->
+
+      <!-- Gallery -->
+      <div class="gallery" id="gallery">
+        <h5 class="text-center text-warning">Our Gallery</h5>
+        <p class="mx-auto">Kami menjelajahi perjalanan yang menarik dan menyenangkan, kami juga tidak melewatkan foto-foto yang berkesan saat melakukan perjalanan.</p>
+        <div class="gambar">
+            <div class="container">
+                <div class="row">
+                    <!-- Large Image Column -->
+                    <div class="col">
+                        <img src="assets/img/portofolio1.jpg" class="img-fluid mb-2 " width="500px" alt="gallery1">
+                    </div>
+                    <!-- Small Images Column -->
+                    <div class="col-md-auto">
+                        <img src="assets/img/portofolio2.jpg" class="img-fluid mb-2 " width="200px" alt="gallery2">
+                        <img src="assets/img/portofolio3.jpg" class="img-fluid mb-2 " width="200px" alt="gallery3">
+                        <!-- Additional Row for Last Two Images -->
+                        <div class="row">
+                            <div class="col">
+                                <img src="assets/img/produk5.jpg" class="img-fluid" width="200px" alt="gallery4">
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/produk1.jpg" class="img-fluid" width="200px" alt="gallery5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-warning text-light mx-auto "  onclick="kegallery()" >Lihat Semua</button>
+      </div>
+      <!-- /Gallery -->
+
+      <!-- Jejak Sukses -->
+      <div class="jejaksukses container-fluid" id="jejaksukses">
+        <div class="container-fluid">
+          <h5 class="text-warning text-center">Jejak Sukses Bersama</h5>
+          <p>Kami dengan bangga merincikan sejarah sukses kerjasama bersama klien-klien terkemuka yang telah menjadi mitra setia dalam perjalanan kami.</p>
+        </div>
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col">
+              <img src="assets/img/logo4.jpg" class="rounded-circle" width="150px" alt="logo4">
+            </div>
+            <div class="col">
+              <img src="assets/img/logo5.jpg" class="rounded-circle" width="150px" alt="logo5">
+            </div>
+            <div class="col">
+              <img src="assets/img/logo6.jpg" class="rounded-circle" width="150px" alt="logo6">
+            </div>
+            <div class="col">
+              <img src="assets/img/logo7.jpg" class="rounded-circle" width="150px" alt="logo7">
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid text-center mt-4">
+          <div class="row">
+            <div class="col">
+              <img src="assets/img/logo1.jpg" class="rounded-circle" width="150px" alt="logo1">
+            </div>
+            <div class="col">
+              <img src="assets/img/logo2.jpg" class="rounded-circle" width="150px" alt="logo2">
+            </div>
+            <div class="col">
+              <img src="assets/img/logo3.jpg" class="rounded-circle" width="150px" alt="logo3">
+            </div>
+            <div class="col">
+              <img src="assets/img/logo8.jpg" class="rounded-circle" width="150px" alt="logo8">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Jejak Sukses -->
+
+      <!-- get touch -->
+      <div class="gettouch container-fluid" id="gettouch">
+        <div class="container-fluid">
+          <h5 class="text-warning text-center">Get In Touch</h5>
+        </div>
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col">
+              <p>Address</p>
+              <p class="card-text"> Jl. Jenderal Sudirman No. 1</p>
+            </div>
+            <div class="col">
+              <p>Phone</p>
+              <p class="card-text"> (0361) 123 456</p>
+            </div>
+            <div class="col">
+              <p>Email</p>
+              <p class="card-text"> 8vYmH@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /get touch -->
+
+      <!-- contactus -->
+      <div class="contactus container-fluid" id="contactus">
+        <div class="container text-start">
+          <div class="row">
+            <div class="col">
+              <h5 class="text-warning">Contact Us: Your Direct Connection</h5>
+              <p>Kami siap mendengarkan dan merespons setiap pertanyaan atau umpan balik yang Anda miliki hubungi kami melalui formulir kontak atau informasi kontak yang tertera untuk menjembatani setiap kebutuhan atau kerjasama yang mungkin Anda inginkan</p>
+            </div>
+            <div class="col text-start">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputNama1" class="form-label">Nama</label>
+                  <input type="email" class="form-control" id="exampleInputNama1" aria-describedby="NamaHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPhone1" class="form-label">Phone</label>
+                  <input type="number" class="form-control" id="exampleInputPhone1" aria-describedby="phoneHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputMessage1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleInputMessage1" aria-describedby="messageHelp" rows="5" cols="50"></textarea>
+                </div>              
+                <button type="submit" class="btn btn-warning text-light">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /contactus -->
+
+      <!-- footer -->
+      <div class="footer container-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-start">
+                    <ul>
+                        <h4 class="text-warning text-start">Komunitas Motor Bali</h4>
+                        <h5>Copyright &copy; 2023</h5>
+                        <p>All Rights Reserved</p>
+                        <p>Developed by: Komunitas motor bali</p>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#produk">Produk</a></li>
+                        <li><a href="#gallery">Galery</a></li>
+                        <li><a href="#gettouch">Get in touch</a></li>
+                        <li><a href="#gettouch">Contact</a></li>
+                        <li><a href="pages/login.html">Log in</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                        <li>Linkedin</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!-- /footer -->
+
+      <!-- redirect -->
+      <script>
+        function redirectToLoginPage() {
+          // Ganti URL di bawah dengan URL halaman login Anda
+          window.location.href = 'pages/login.html';
+        }
+
+        function kelogin() {
+          window.location.href = 'pages/register.html';
+        }
+
+        function kegallery() {
+          window.location.href = 'pages/gallery.html';
+        }
+
+        function keportfolio() {
+          window.location.href = 'pages/portofolio.html';
+        }
+      </script>      
+      <!-- /redirect     -->
+
+      <!-- boostrap script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <!-- /boostrap script -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- javasript cdn link for owl carausel library -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <script>
+          $('.owl-carousel').owlCarousel({
+              loop:true,
+              margin:50,
+              nav:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:3
+                  },
+                  1000:{
+                      items:3
+                  }
+              }
+          })
+      </script>
+  </body>
+</html>

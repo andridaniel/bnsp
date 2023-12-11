@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding: 0%;
+    margin: 0%;
+}
+
+.gambarhome {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.gambarhome img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gambarhome .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Warna tembus, Anda bisa mengatur opasitas di sini */
+    z-index: 1; /* Pastikan overlay berada di atas gambar */
+}
+
+/* navbar */
+.navbar {
+    font-size: 16px;
+    z-index: 1000;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+
+.navbar .nav-link:hover {
+    color: rgba(255, 176, 0, 1);
+}
+
+.nav-link {
+    margin-right: 25px;
+    color: white;
+    font-size: 17px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* /navbar */
+
+/* text */
+.text{
+    z-index: 2;
+    top: 30%;
+    margin-left: 7%;
+    position: absolute;
+    color: #ffffff;
+    font-size: 50px;
+    margin-right: 48%;
+}
+
+.desc{
+    font-size: 20px;
+}
+
+.judul{
+    font-family: 'Outfit', sans-serif;
+}
+/* /text */
+
+/* about */
+
+.about{
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+    /* border-radius: 20px 20px 0 0; */
+}
+
+.about h5{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: 90px;
+}
+
+
+.about img {
+    border-radius: 20px;
+    margin-top: 90px;
+    width: 250px;
+}
+
+/* /about */
+
+
+/* visimisi */
+.visimisi {
+    position: absolute;
+    z-index: 3;
+    top: 200%;
+    padding-top: 120px;
+    margin-top: 20px;
+    padding-bottom: 110px;
+    background-color: rgba(18, 18, 18, 1);
+    color: #ffffff;
+    padding-right: 100px;
+}
+
+.visimisi h3{
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+}
+
+.visimisi h5{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+.visimisi img{
+    width: 270px;
+    margin-left: 100px;
+    border-radius: 20px;
+
+}
+/* /visimisi */
+
+/* portofolio */
+.portofolio{
+    position: absolute;
+    z-index: 4;
+    top: 300%;
+    margin-top: 50px;
+    padding-top: 120px;
+    padding-bottom: 110px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffffff;
+    padding-left: 100px;
+
+}
+
+.portofolio .carousel {
+    margin-top: 80px;
+}
+
+.portofolio .border{
+    border-radius: 30px;
+}
+
+.portofolio h5{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+   
+}
+
+/* /portofolio */
+
+/* produk */
+.produk{
+    position: absolute;
+    z-index: 5;
+    top: 400%;
+    margin-top: 60px;
+    padding-top: 60px;
+    background-color:rgba(18, 18, 18, 1);
+    color: #ffffff;
+    padding-bottom: 40px;
+
+}
+
+.produk p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.produk .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%; /* Ensure the container takes up the full height */
+}
+
+
+.produk h5 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+}
+
+.produk section{
+    width: 60%;
+    margin: 0 auto; /* Center horizontally using auto margins */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/* /produk */
+
+
+
+/* gallery */
+.gallery{
+    position: absolute;
+    z-index: 6;
+    top: 500%;
+    margin-top: 100px;
+    padding-top: 80px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 1);
+    padding-bottom: 120px;
+}
+
+.gallery p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+.gallery h5 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    
+}
+
+.gallery .gambar {
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.gallery button {
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* /gallery */
+
+/* jejaksukses */
+.jejaksukses{
+    position: absolute;
+    z-index: 7;
+    top: 600%;
+    margin-top: 165px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color:rgba(18, 18, 18, 1);
+    color: #ffffff;
+    justify-content: center;
+
+}
+
+.jejaksukses h5{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+}
+
+.jejaksukses p{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 5%;    
+}
+
+/* /jejaksukses  */
+
+/* get touch */
+.gettouch{
+    position: absolute;
+    z-index: 8;
+    top: 700%;
+    margin-top: 190px;
+    padding-top: 80px;
+    padding-bottom: 210px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.gettouch h5{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+}
+
+.gettouch .col i{
+    font-size: 40px;
+    color: rgba(255, 176, 0, 1);
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    border-radius: 100%;
+    height: 90px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.gettouch .col i:hover
+{
+    background-color: rgba(255, 176, 0, 1);
+    color: #ffffff;
+ 
+    
+}
+
+/* /get touch */
+
+/* contactus */
+.contactus {
+    position: absolute;
+    z-index: 9;
+    top: 800%;
+    margin-top: 190px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+    background-color: rgba(18, 18, 18, 1);
+}
+
+.contactus h5{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    padding-left: 100px;
+}
+
+.contactus p{
+    margin-left: 100px;
+    margin-right: 20px;
+}
+/* /contactus */
+ 
+/* footer  */
+.footer{
+    position: absolute;
+    z-index: 8;
+    top: 900%;
+    margin-top: 190px;
+    padding-top: 100px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+/* /footer */
